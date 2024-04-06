@@ -6,3 +6,4 @@ class contactanos(models.Model):
     apellido = models.CharField(max_length = 50)
     celular = models.CharField(max_length = 10)
     email = models.EmailField()
+    
